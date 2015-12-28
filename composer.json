@@ -11,9 +11,15 @@
             "homepage":"http://aws.amazon.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url" : "https://github.com/HwdGroup/aws-sdk-php.git"
+        }
+    ],
     "require": {
         "php": ">=5.3.3",
-        "aws/aws-sdk-php": "~2.2",
+        "aws/aws-sdk-php": "2.8.25",
         "laravel/framework": "4.*"
     },
     "require-dev": {
